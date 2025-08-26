@@ -19,7 +19,7 @@ void main() {
   ); //as data type is dynamic so I must convert it to string first
   print(
     environment['mobile'].toString().toUpperCase(),
-  ); //or I mat put ! after variable then write toUpperCase manually
+  ); //or I must put ! after variable then write toUpperCase manually
   print(
     environment['search engin'].toString().toUpperCase(),
   ); //as dynamic don't provide all functionswhich can applied on string

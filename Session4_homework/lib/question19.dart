@@ -14,6 +14,7 @@ void main() {
   print(setLength);
   int mapLength = mapOfNames.length;
   print(mapLength);
+
   if (listLength > setLength) {
     print('There are duplicate names');
   } else {
