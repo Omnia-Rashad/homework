@@ -21,4 +21,12 @@ void main() {
   }
   print(repeatedNames);
   print(countNames);
+
+  // List<String> names = ['Ali', 'Mona', 'Ali', 'Omar', 'Mona'];
+  // Map<String, dynamic> countNames = {};
+
+  // for (var item in names) {
+  //   countNames[item] = (countNames[item] ?? 0) + 1;
+  // }
+  // print(countNames);
 }
