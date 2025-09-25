@@ -4,20 +4,22 @@ void main() {
 }
 
 bool containsDuplicate(List<int> nums) {
-  Map<int, int> countNumbers = {};
+  Set<int> numsSet = nums.toSet();
+  return nums.length != numsSet.length;
+  // Map<int, int> countNumbers = {};
 
-  for (int i = 0; i < nums.length; i++) {
-    if (countNumbers.containsKey(nums[i])) {
-      countNumbers[nums[i]] = countNumbers[nums[i]]! + 1;
-    } else {
-      countNumbers[nums[i]] = 1;
-    }
-  }
-  for (int count in countNumbers.values) {
-    if (count > 1) {
-      return true;
-    }
-  }
+  // for (int i = 0; i < nums.length; i++) {
+  //   if (countNumbers.containsKey(nums[i])) {
+  //     countNumbers[nums[i]] = countNumbers[nums[i]]! + 1;
+  //   } else {
+  //     countNumbers[nums[i]] = 1;
+  //   }
+  // }
+  // for (int count in countNumbers.values) {
+  //   if (count > 1) {
+  //     return true;
+  //   }
+  // }
 
-  return false;
+  // return false;
 }
