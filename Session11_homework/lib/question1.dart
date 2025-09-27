@@ -29,7 +29,7 @@ void main() {
 class GeneralVehicle {
   String _brand;
   int _year;
-  int _defaultFuelConsumtion;
+  int _defaultFuelConsumtion; //fuelConsumedPer2KM
   int _totalFuel;
 
   set brand(String brand) {
